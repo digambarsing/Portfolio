@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/@heroicons/react/outline" rel="stylesheet">
+</head>
+
+<body class="min-h-screen bg-gray-900 text-white">
+
+  <!-- Hero Section -->
+  <section class="w-full max-w-4xl mx-auto text-center my-12">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-indigo-500 to-indigo-300 bg-clip-text text-transparent">
+      About Me
+    </h1>
+    <p class="text-xl text-gray-400">Passionate developer, creative thinker, problem solver.</p>
+  </section>
+
+  <!-- Bio Section -->
+  <section class="w-full max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 mb-12">
+    <div class="w-48 h-48 relative rounded-full overflow-hidden shadow-lg">
+        <img src="my.jpg" alt="User" class="w-full h-full object-cover" style="object-position: top;">
+    </div>
+    
+    
+    <div class="flex-1">
+      <h2 class="text-2xl font-semibold mb-4">Hello, I'm Digambar Singh</h2>
+      <p class="text-gray-400 mb-4">
+        I'm a full-stack developer with a passion for creating beautiful, functional, and user-centered digital experiences.
+        With 2 years of experience in the field, I am always looking for new and innovative ways to bring my clients' visions to life.
+      </p>
+      <div class="flex gap-4">
+        <button class="bg-indigo-500 hover:bg-indigo-400 text-white px-6 py-2 rounded-lg flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12l-18 12V0l18 12z" />
+          </svg>
+          Contact Me
+        </button>
+        <a href="https://github.com/digambarsing/Resume/blob/main/MyResume.pdf" target="_blank" rel="noopener noreferrer">
+            <button class="border-2 border-indigo-500 text-indigo-500 hover:bg-indigo-500 hover:text-white px-6 py-2 rounded-lg flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12l-18 12V0l18 12z" />
+              </svg>
+              Download CV
+            </button>
+          </a>
+          
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline Section -->
+  <section class="w-full max-w-4xl mx-auto mb-12">
+    <h2 class="text-2xl font-semibold mb-6 text-center">My Journey</h2>
+    <div class="space-y-4">
+        <div class="bg-gray-800 p-4 rounded-lg flex items-center">
+            <div class="text-4xl font-bold text-indigo-500 mr-4">2023</div>
+            <div>
+                <h3 class="font-semibold">Taught at IITM Coaching</h3>
+                <p class="text-sm text-gray-400">Instructed students in various technical subjects, enhancing my teaching and communication skills.</p>
+            </div>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg flex items-center">
+            <div class="text-4xl font-bold text-indigo-500 mr-4">2022</div>
+            <div>
+                <h3 class="font-semibold">B.Tech in AIML</h3>
+                <p class="text-sm text-gray-400">Started my B.Tech journey with a focus on Artificial Intelligence and Machine Learning.</p>
+            </div>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg flex items-center">
+            <div class="text-4xl font-bold text-indigo-500 mr-4">2022</div>
+            <div>
+                <h3 class="font-semibold">Passed 12th with PCMB</h3>
+                <p class="text-sm text-gray-400">Completed my 12th class with a focus on Physics, Chemistry, Mathematics, and Biology, achieving 87%.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <section class="w-full max-w-4xl mx-auto mb-12">
+    <h2 class="text-2xl font-semibold mb-6 text-center">Skills & Expertise</h2>
+    <div class="flex flex-wrap justify-center gap-2">
+      <span class="bg-indigo-500 text-white py-2 px-4 rounded-lg">React</span>
+      <span class="bg-indigo-500 text-white py-2 px-4 rounded-lg">JavaScript</span>
+      <span class="bg-indigo-500 text-white py-2 px-4 rounded-lg">JAVA</span>
+      <span class="bg-indigo-500 text-white py-2 px-4 rounded-lg">Python</span>
+      <span class="bg-indigo-500 text-white py-2 px-4 rounded-lg">HTML</span>
+      <span class="bg-indigo-500 text-white py-2 px-4 rounded-lg">CSS</span>
+      <span class="bg-indigo-500 text-white py-2 px-4 rounded-lg">DSA</span>
+      <span class="bg-indigo-500 text-white py-2 px-4 rounded-lg">Tailwind</span>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="w-full max-w-4xl mx-auto text-center mb-12">
+    <div class="bg-gray-800 p-6 rounded-lg">
+      <h2 class="text-2xl font-semibold mb-4">Contact Me</h2>
+      <p class="text-gray-400 mb-4">
+        Feel free to reach out for collaborations or just a friendly hello.
+      </p>
+      <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+        <button class="border-2 border-indigo-500 text-indigo-500 hover:bg-indigo-500 hover:text-white px-6 py-2 rounded-lg flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12l-18 12V0l18 12z" />
+          </svg>
+          digambarsing4h@gmail.com
+        </button>
+        <button class="border-2 border-indigo-500 text-indigo-500 hover:bg-indigo-500 hover:text-white px-6 py-2 rounded-lg flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12l-18 12V0l18 12z" />
+          </svg>
+          +91 750 042 6524
+        </button>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

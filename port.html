@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-900 text-white font-sans">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm">
+    <div class="container mx-auto px-6 py-3">
+      <div class="flex items-center justify-between">
+        <span class="text-2xl font-bold">Digambar singh</span>
+        <div class="hidden md:flex space-x-4">
+          <a href="#home" class="hover:text-purple-400 transition-colors">Home</a>
+          <a href="about.html" class="hover:text-purple-400 transition-colors">About</a>
+          <a href="#skills" class="hover:text-purple-400 transition-colors">Skills</a>
+          <a href="#education" class="hover:text-purple-400 transition-colors">Education</a>
+          <a href="#projects" class="hover:text-purple-400 transition-colors">Projects</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800">
+    <div class="text-center">
+      <h1 class="text-5xl md:text-7xl font-bold mb-4">Digambar Singh</h1>
+      <p class="text-xl md:text-2xl mb-8">Full Stack Developer & Aspiring Mentor</p>
+      <a href="about.html" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition-colors">
+        Learn More About Me
+      </a>
+      <div class="mt-12 animate-bounce">
+        <a href="#skills" class="text-gray-400 hover:text-white transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14m-7-7l7 7 7-7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gray-900">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-8 text-center">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div class="bg-gray-800 rounded-lg p-4 text-center hover:bg-gray-700 transition-colors">JavaScript</div>
+        <div class="bg-gray-800 rounded-lg p-4 text-center hover:bg-gray-700 transition-colors">HTML</div>
+        <div class="bg-gray-800 rounded-lg p-4 text-center hover:bg-gray-700 transition-colors">React</div>
+        <div class="bg-gray-800 rounded-lg p-4 text-center hover:bg-gray-700 transition-colors">CSS</div>
+        <div class="bg-gray-800 rounded-lg p-4 text-center hover:bg-gray-700 transition-colors">Python</div>
+        <div class="bg-gray-800 rounded-lg p-4 text-center hover:bg-gray-700 transition-colors">JAVA</div>
+        <div class="bg-gray-800 rounded-lg p-4 text-center hover:bg-gray-700 transition-colors">Tailwind</div>
+        <div class="bg-gray-800 rounded-lg p-4 text-center hover:bg-gray-700 transition-colors">DSA</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-8 text-center">Education</h2>
+        <div class="max-w-3xl mx-auto">
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold mb-2">12th Class (PCMB)</h3>
+                <p class="text-gray-400">CBSE Board | 2022 | 87%</p>
+            </div>
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold mb-2">Bachelor of Technology in Artificial Intelligence and Machine Learning (AIML)</h3>
+                <p class="text-gray-400"> GLA University | 2022 - Present | 8.5 CPI</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-900">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors">
+                <h3 class="text-xl font-semibold mb-4">Real-Time GST Website</h3>
+                <p class="text-gray-400">A dynamic website for managing Goods and Services Tax (GST) with real-time calculations, built using HTML, Tailwind CSS, JavaScript, and backend integration for tax management and reporting.</p>
+            </div>
+            <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors">
+                <h3 class="text-xl font-semibold mb-4">Apnirides (AI-Driven Taxi App)</h3>
+                <p class="text-gray-400">A taxi booking platform that uses machine learning algorithms for ride predictions and optimization, developed using HTML, Tailwind CSS, JavaScript, and integrated with machine learning for smarter ride suggestions.</p>
+            </div>
+            <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors">
+                <h3 class="text-xl font-semibold mb-4">Salesforce Clone with Full Functionality</h3>
+                <p class="text-gray-400">A complete clone of the Salesforce CRM platform, featuring user management, lead tracking, and real-time updates, built with HTML, Tailwind CSS, JavaScript, and backend services for customer relationship management.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-8">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy;  Digambar Singh. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
